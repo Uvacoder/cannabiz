@@ -1,0 +1,21 @@
+{
+  "name": "cannabiz",
+  "version": "1.0.0",
+  "description": "SPA template built with Tailwind for eCommerce",
+  "homepage": "https://nikkipeel.github.io/cannabiz",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/main.css"
+  },
+  "keywords": [
+    "tailwindcss",
+    "ecommerce",
+    "business"
+  ],
+  "author": "Nikki Peel",
+  "license": "ISC"
+}

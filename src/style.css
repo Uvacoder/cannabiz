@@ -1,0 +1,171 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  --text-shadow:  -3px 3px 5px rgba(0,0,0,0.7);
+}
+
+
+body {
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+#title, #title-mobile {
+  font-family: 'Righteous', cursive;
+  text-shadow: -2px 2px 0px rgba(0,0,0,0.7),
+              -3px 3px 0px #48BB78 /* Tailwind class 'green-500' */;
+}
+
+h1 {
+  font-weight: 700;
+  text-shadow: var(--text-shadow);
+}
+
+.show {
+  display: block;
+}
+
+#slider ul li {
+  float: left;
+  height: 700px;
+  width: 100vw;
+}
+
+#credit {
+  font-style: italic;
+  text-shadow: var(--text-shadow);
+}
+
+@media screen and (min-width: 960px) {
+  #slider ul li {
+    width: 75vw;
+  }
+}
+
+#slide-1 {
+  background-image: url('https://i.imgur.com/v83KCCf.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#slide-2 {
+  background-image: url('https://i.imgur.com/IsxEFjA.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#slide-3 {
+  background-image: url('https://i.imgur.com/mLCI8Xu.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#slide-4 {
+  background-image: url('https://i.imgur.com/Du4JpsW.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+a.control_prev, a.control_next {
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  top: 40%;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_next {
+  right: 2px;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  background-image: url('https://i.imgur.com/QulNgQl.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#about h2 {
+  text-shadow: var(--text-shadow);
+}
+
+
+#menu {
+  margin-top: -30%;
+}
+
+@media screen and (min-width: 960px) {
+  #menu {
+    margin-top: -16%;
+  }
+} 
+
+#menu-header {
+  height: 400px;
+  background-image: url('https://i.imgur.com/CYdIepn.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+  #one:checked ~ .menus #flower-menu,
+  #two:checked ~ .menus #oils-menu,
+  #three:checked ~ .menus #edibles-menu{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+@media screen and (min-width: 960px) {
+  #one:checked ~ .menus #flower-menu,
+  #two:checked ~ .menus #oils-menu,
+  #three:checked ~ .menus #edibles-menu{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+
+#one:checked ~ .tabs #flower,
+#two:checked ~ .tabs #oils,
+#three:checked ~ .tabs #edibles{
+  background-color: #2F855A; /* Tailwind green-600 */
+  color: white;
+}
+
+#menu {
+  transition: fade-in;
+}
+
+.menus p {
+  font-family: 'Space Mono', monospace;
+}
+
+#specials-bg {
+  height: 400px;
+  background-image: url('https://i.imgur.com/No51lsp.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: opacity(0.80) contrast(1.5) drop-shadow(-3px -2px 2px #38A169) drop-shadow(10px 5px 10px #38A169); 
+}
+
+#social-feed img {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes fade-in{
+    0% { opacity: 0; }
+  100% { opacity: 1;}
+}
