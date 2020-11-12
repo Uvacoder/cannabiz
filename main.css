@@ -21682,7 +21682,7 @@ h1 {
 }
 
 #slide-1 {
-  background-image: url('../img/slide-1.jpg');
+  background-image: url('img/slide-1.jpg');
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -21690,7 +21690,7 @@ h1 {
 }
 
 #slide-2 {
-  background-image: url('../img/slide-2.jpg');
+  background-image: url('img/slide-2.jpg');
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -21698,7 +21698,7 @@ h1 {
 }
 
 #slide-3 {
-  background-image: url('../img/slide-3.jpg');
+  background-image: url('img/slide-3.jpg');
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -21706,7 +21706,7 @@ h1 {
 }
 
 #slide-4 {
-  background-image: url('../img/slide-4.jpg');
+  background-image: url('img/slide-4.jpg');
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -21730,7 +21730,7 @@ a.control_next {
 /* ABOUT SECTION */
 
 #about {
-  background-image: url('../img/about-bg.png');
+  background-image: url('img/about-bg.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -21752,7 +21752,7 @@ a.control_next {
 
 #menu-header {
   height: 400px;
-  background-image: url('../img/menu-bg.jpg');
+  background-image: url('img/menu-bg.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -21790,7 +21790,7 @@ a.control_next {
 
 #specials-bg {
   height: 400px;
-  background-image: url('../img/specials-bg.png');
+  background-image: url('img/specials-bg.png');
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
