@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Righteous&family=Space+Mono&display=swap');
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
 
 :root {
   --text-shadow:  -3px 3px 5px rgba(0,0,0,0.7);
@@ -50,7 +53,7 @@ h1 {
 
 #slide-1 {
   background-image: url('img/slide-1.jpg');
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
   height: 700px;
   width: 100vw;
@@ -58,7 +61,7 @@ h1 {
 
 #slide-2 {
   background-image: url('img/slide-2.jpg');
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
   height: 700px;
   width: 100vw;
@@ -167,9 +170,7 @@ a.control_next {
   filter: opacity(0.80) contrast(1.5) drop-shadow(-3px -2px 2px #38A169) drop-shadow(10px 5px 10px #38A169); 
 }
 
-#social-feed img {
-  width: 360px;
-  height: 300px;
+.col-span-1 img {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 

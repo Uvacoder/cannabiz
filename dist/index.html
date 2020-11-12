@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Righteous&family=Space+Mono&display=swap" rel="stylesheet">
+
+
     <title>Cannabiz</title>
   </head>
 <body>
@@ -373,31 +375,31 @@
             <p class="text-sm text-gray-900 mb-4 p-4 w-full lg:w-2/3 text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa! Unde culpa perferendis quae, fuga repudiandae eos ducimus harum neque minus id hic consectetur dolorum.</p>
             <div id="image-grid" class="w-full grid grid-cols lg:grid-cols-3 gap-2 justify-center items-center">
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-1.jpg" alt="">
+                <img style="width:360px; height: 300px" loading="lazy" src="img/insta-1.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-2.jpg" alt="">
+                <img style="width:360px; height: 300px"  loading="lazy" src="img/insta-2.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-3.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy"src="img/insta-3.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-4.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy" src="img/insta-4.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-5.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy" src="img/insta-5.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-6.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy" src="img/insta-6.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-7.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy" src="img/insta-7.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-8.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy" src="img/insta-8.jpg" alt="">
               </div>
               <div class="col-span-1 shadow-lg">
-                <img src="img/insta-9.jpg" alt="">
+                <img  style="width:360px; height: 300px" loading="lazy" src="img/insta-9.jpg" alt="">
               </div>
             </div>
             <button class="block bg-green-800 font-light hover:font-normal hover:bg-green-600 hover:underline text-gray-100 hover:text-white mx-auto mt-4 py-2 px-4 rounded transition duration-300">Follow @instaname</a></button>
@@ -443,7 +445,7 @@ var sliderUlWidth = slideCount * slideWidth;
 $('#slider').css({ width: slideWidth, height: slideHeight });
 
 $('#slider #slides').css({
-width: sliderUlWidth, marginLeft: - slideWidth
+width: sliderUlWidth, marginLeft: - slideWidth,
 });
 
 
@@ -451,7 +453,7 @@ $('#slider #slides li:last-child').prependTo('#slider slides');
 function moveLeft() {
 $('#slider #slides').animate({
 left: + slideWidth
-}, 300, function () {
+}, 200, function () {
 $('#slider #slides li:last-child').prependTo('#slider #slides');
 $('#slider #slides').css('left', '');
 });
@@ -461,7 +463,7 @@ $('#slider #slides').css('left', '');
 function moveRight() {
 $('#slider #slides').animate({
 left: - slideWidth
-}, 300, function () {
+}, 200, function () {
 $('#slider #slides li:first-child').appendTo('#slider #slides');
 $('#slider #slides').css('left', '');
 });
