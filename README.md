@@ -13,15 +13,15 @@ Features to add:
   - Add Contact Section with Google Maps integration
 
 <h3>- Slider -</h3>
-<img src="img/slider.png" width="100%" height="auto"/>
+<img src="dist/img/slider.png" width="100%" height="auto"/>
 <br />
 <h3>- About Section-</h3>
-<img src="img/about.png" width="100% height="auto" />
+<img src="dist/img/about.png" width="100% height="auto" />
 <br />
 <h3>- Specials Menu -</h3>
-<img src="img/specials.png" width="100%" height="auto" />
+<img src="dist/img/specials.png" width="100%" height="auto" />
 <br />
 <h3>- Mobile Views - </h3>
-<img src="img/specials-mobile.png" width="50%" height="auto" />
-<img src="img/menu-mobile.png" width="50%" height="auto" />
+<img src="dist/img/specials-mobile.png" width="50%" height="auto" />
+<img src="distimg/menu-mobile.png" width="50%" height="auto" />
 
