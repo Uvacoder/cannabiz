@@ -23,5 +23,5 @@ Features to add:
 <br />
 <h3>- Mobile Views - </h3>
 <img src="dist/img/specials-mobile.png" width="50%" height="auto" />
-<img src="distimg/menu-mobile.png" width="50%" height="auto" />
+<img src="dist/img/menu-mobile.png" width="50%" height="auto" />
 
