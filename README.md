@@ -1,4 +1,4 @@
-# cannabiz
+#cannabiz
 
 <h1>:fire: Cannabiz </h1>
 
